@@ -1,0 +1,50 @@
+/* Footer.css */
+
+footer {
+    border-top: 1px solid #e5e7eb; /* Light gray */
+    margin-top: 32px;
+    padding-top: 48px; /* 12 * 4 */
+    padding-bottom: 128px; /* 32 * 4 */
+    padding-left: 16px; /* 4 * 4 */
+    padding-right: 16px; /* 4 * 4 */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  }
+  
+  .footer-column {
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 16px; /* Space between columns */
+  }
+  
+  @media (min-width: 768px) { /* md breakpoint */
+    .footer-column {
+      width: 33.33%; /* One-third width on medium screens */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* lg breakpoint */
+    .footer-column {
+      width: 25%; /* One-fourth width on large screens */
+    }
+  }
+  
+  .footer-heading {
+    font-weight: 600;
+    color: #4a5568; /* Dark gray */
+    margin-bottom: 16px; /* Space below heading */
+  }
+  
+  .footer-link {
+    display: block; /* Block display for links */
+    color: #4a5568; /* Gray */
+    padding: 8px 0; /* Vertical padding for links */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-link:hover {
+    color: #6b46c1; /* Purple on hover */
+  }
+  
